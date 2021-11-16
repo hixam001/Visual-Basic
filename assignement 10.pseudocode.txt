@@ -1,0 +1,15 @@
+input str1 
+
+For count = 1 To Len(str1)
+            thisstr = Right(str1, 3)
+            If thisstr = s3 Then
+                str2 = str1 & s2
+            Else
+                str2 = str1 & s3
+            End If
+            If Len(str1) < 3 Then
+                output str1
+            End If
+        Next
+output str2
+end

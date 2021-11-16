@@ -1,0 +1,13 @@
+ For counter1 = 1 To Len(s1)
+            thischar = Mid(s1, counter1, 1)
+            count = 0
+            For counter2 = 1 To Len(s1)
+                char2 = Mid(s1, counter2, 1)
+                If char2 = thischar Then count = count + 1
+            Next
+            If count > most Then
+                most = count
+                char1 = thischar
+            End If
+Next
+output char1 & ' was used ' & most & ' number of times'

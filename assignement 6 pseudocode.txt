@@ -1,0 +1,9 @@
+input donut
+For count = 1 To donut
+            If donut > 10 Then
+                output'NUMBER OF DONUTS: MANY'
+            Else
+                If donut < 10 Then
+                   output donuts
+next
+end

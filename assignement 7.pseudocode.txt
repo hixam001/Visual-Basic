@@ -1,0 +1,11 @@
+input S
+If Len(s) <= 2 Then
+            Console.WriteLine(s)
+            Console.ReadKey()
+        End If
+
+        For count = 1 To Len(s)
+            F2 = Left(s, 2)
+            L2 = Right(s, 2)
+Next
+output F2 & L2

@@ -1,0 +1,10 @@
+input char1, char2, str1
+for count=1 to len(str1)
+ if char 1= char2 then
+ str2= str1
+elseif char1<>char2 then
+str2= str1.replace(char1, char2) 
+endif
+next
+output str2
+end

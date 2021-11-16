@@ -1,0 +1,11 @@
+assignement 3
+
+input str1, char1,
+for count=1 to len(str1)
+ thischar=mid(str1, count)
+ if ucase(char1)=ucase(thischar) then
+ alphacount= alphacount +1
+endif
+next
+output alphacount
+end

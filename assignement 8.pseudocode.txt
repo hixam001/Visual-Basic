@@ -1,0 +1,8 @@
+input str1 
+For count = 1 To Len(Str1) - 1
+            myChar = Mid(Str1, (count + 1), 1)
+            If myChar = thischar Then
+                myChar = "*"
+            End If
+        Next
+output mychar

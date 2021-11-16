@@ -1,0 +1,12 @@
+ASSIGEMENT#1
+
+declare string1, this string,count,alphabet
+
+for count=1 to len(string1)
+  input string1
+   if string 1= uppercase(alphabet) And alphabet then
+     then output:"the string contains both uppercase and lowercase alphabets"
+   elseif output:" the string doesnot contain any alphabets"
+    end if
+  next
+ 
